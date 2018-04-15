@@ -1,0 +1,20 @@
+.pageheader{
+  background-color: #4285F4;
+  width: 100%;
+  display: inline-block;
+  height:80px;
+}
+.headerTitle{
+  color: #fff;
+  width: 350px;
+  margin-left: 5%;
+  line-height: 24px;
+  font-size: 18px;
+}
+.headerMenu{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+
+}

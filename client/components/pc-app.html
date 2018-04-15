@@ -1,0 +1,27 @@
+<link rel="import" href="../node_modules/@polymer/polymer/polymer-element.html">
+<link rel="import" href="pc-header/pc-header.html">
+<dom-module id="pc-app">
+  <template>
+    <style>
+    .pagecontent{
+      margin: 0 auto;
+      width: 100%;
+      
+    }
+    </style>
+    <div class="pagecontent">
+      <pc-header></pc-header>
+    </div>
+  </template>
+  <script>
+  class PcApp extends Polymer.Element {
+    static get is() {
+      return "pc-app";
+    }
+    constructor() {
+      super();
+    }
+  }
+  customElements.define(PcApp.is, PcApp);
+  </script>
+</dom-module>
